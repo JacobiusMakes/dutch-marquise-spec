@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://stienhardt.com/spec/diamond-cut-definition.schema.json",
+  "title": "Diamond Cut Definition",
+  "description": "A structured, sourced definition of a diamond cut, including trade-name cuts that grading laboratories describe by geometry rather than by name.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "trade_name",
+    "officially_recognized_shape",
+    "certificate_term",
+    "outline",
+    "faceting_pattern",
+    "length_to_width_ratio",
+    "provenance",
+    "sources",
+    "version",
+    "updated"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The common name of the cut.",
+      "examples": ["Dutch Marquise", "French Marquise"]
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Other names the cut is sold or searched under."
+    },
+    "trade_name": {
+      "type": "boolean",
+      "description": "True if the name is a trade name rather than an officially recognized gemological shape."
+    },
+    "officially_recognized_shape": {
+      "type": "boolean",
+      "description": "True only if a major grading laboratory recognizes this exact name as an official shape. For trade names this is false."
+    },
+    "certificate_term": {
+      "type": "string",
+      "description": "How a grading report most often describes the geometry.",
+      "examples": ["modified marquise brilliant", "marquise brilliant"]
+    },
+    "definition": {
+      "type": "string",
+      "description": "The canonical one-sentence, plain-English definition of the cut."
+    },
+    "outline": {
+      "type": "string",
+      "description": "The face-up outline of the finished stone."
+    },
+    "end_treatment": {
+      "type": "string",
+      "description": "How the ends of the stone are finished (for example angular points along the long edges tapering toward each end, or pointed with French tips)."
+    },
+    "faceting_pattern": {
+      "type": "string",
+      "enum": ["crushed_ice", "brilliant", "step", "mixed", "pending_confirmation"],
+      "description": "The faceting style of the stone."
+    },
+    "faceting_status": {
+      "type": "string",
+      "description": "Free-text status note used when the faceting pattern is pending confirmation."
+    },
+    "length_to_width_ratio": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["typical_min", "typical_max"],
+      "properties": {
+        "typical_min": { "type": "number", "description": "Lower end of the typical market range." },
+        "typical_max": { "type": "number", "description": "Upper end of the typical market range." },
+        "recommended_min": { "type": "number", "description": "Lower end of the maintainer's recommended cutting range." },
+        "recommended_max": { "type": "number", "description": "Upper end of the maintainer's recommended cutting range." },
+        "units": { "type": "string", "const": "ratio", "description": "Dimensionless ratio of length to width in millimeters." }
+      }
+    },
+    "durability_notes": {
+      "type": "string",
+      "description": "Plain notes on chip resistance and wear."
+    },
+    "inclusion_visibility": {
+      "type": "string",
+      "enum": ["hides", "neutral", "reveals"],
+      "description": "Whether the faceting pattern tends to hide, not affect, or reveal inclusions."
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["published_by", "claim_scope", "claim_boundary"],
+      "properties": {
+        "published_by": {
+          "type": "string",
+          "description": "Who publishes this plain, repeatable definition."
+        },
+        "claim_scope": {
+          "type": "string",
+          "description": "Exactly what is claimed. We publish this definition and cut these stones in-house. Stay narrow and true."
+        },
+        "claim_boundary": {
+          "type": "string",
+          "description": "What is explicitly NOT claimed (for example invention, patent, or trademark)."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One entry per measurable or contestable claim. Every pricing or market claim must carry a source and a date.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "type"],
+        "properties": {
+          "claim": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["first_party", "third_party", "general_gemology"]
+          },
+          "source": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "accessed": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of this record.",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this record was last updated."
+    }
+  }
+}

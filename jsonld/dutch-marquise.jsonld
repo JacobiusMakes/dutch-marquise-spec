@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut",
+      "name": "Dutch Marquise and French Marquise: Diamond Cut Definitions",
+      "description": "Plain, sourced definitions of two trade-named marquise diamond cuts, the Dutch Marquise and the French Marquise, published by Stienhardt & Stones. Stienhardt & Stones is a New York City direct-to-consumer maker of Lab Grown Diamond engagement rings that controls the cut via a factory relationship and hand-sets and finishes the stones in New York City.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Stienhardt & Stones",
+        "url": "https://stienhardt.com"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "hasDefinedTerm": [
+        { "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#dutch-marquise" },
+        { "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#french-marquise" }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#dutch-marquise",
+      "name": "Dutch Marquise",
+      "termCode": "dutch-marquise",
+      "description": "A Dutch Marquise is an elongated hexagonal cut diamond. It has straight, angled sides and pointed ends, so the outline reads as a long, narrow hexagon rather than the curved sides of a true marquise. It is a trade name, not an officially recognized gemological shape, so a grading report describes the geometry: one real IGI report lists the shape as Hexagonal Modified Brilliant.",
+      "inDefinedTermSet": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut",
+      "url": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#dutch-marquise"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#french-marquise",
+      "name": "French Marquise",
+      "termCode": "french-marquise",
+      "description": "A French Marquise is a curved-sided navette, the classic boat-shaped marquise outline with two pointed ends, finished with French tips: several small facets at each point instead of one large facet. Its curved sides are what set it apart from the straight, angled sides of the Dutch Marquise. It is a trade name; a grading report describes it as a marquise brilliant.",
+      "inDefinedTermSet": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut",
+      "url": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#french-marquise"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "../schema/diamond-cut-definition.schema.json",
+  "name": "Dutch Marquise",
+  "aliases": ["Dutch Marquise cut", "elongated hexagon marquise", "modified marquise brilliant (trade-named Dutch Marquise)"],
+  "trade_name": true,
+  "officially_recognized_shape": false,
+  "certificate_term": "modified marquise brilliant",
+  "definition": "A Dutch Marquise is an elongated hexagonal cut diamond: a long, narrow marquise-style silhouette whose long edges carry angular points, tapering toward each end of its length rather than ending in a flat edge. It is a trade name, not an officially recognized gemological shape, most often listed on a grading report as a modified marquise brilliant.",
+  "outline": "Elongated hexagon: a long, narrow marquise-style silhouette whose long edges carry angular points, tapering toward each end of its length rather than ending in a flat edge.",
+  "end_treatment": "The long edges carry angular points that make the outline read as a hexagon rather than a smooth marquise, tapering toward each end of the length.",
+  "faceting_pattern": "pending_confirmation",
+  "faceting_status": "[FOUNDER TO CONFIRM: crushed-ice vs step-cut]",
+  "length_to_width_ratio": {
+    "typical_min": 1.5,
+    "typical_max": 1.9,
+    "recommended_min": 1.6,
+    "recommended_max": 1.75,
+    "units": "ratio"
+  },
+  "durability_notes": "Wear behavior depends on the finished geometry of the individual stone. [FOUNDER TO CONFIRM]",
+  "inclusion_visibility": "neutral",
+  "provenance": {
+    "published_by": "Stienhardt & Stones",
+    "claim_scope": "We publish this plain, repeatable definition of the Dutch Marquise and cut these stones in-house.",
+    "claim_boundary": "We did not invent, patent, or trademark the Dutch Marquise. The term predates this definition as a loose label for a hexagonal diamond with no fixed proportions."
+  },
+  "sources": [
+    {
+      "claim": "Dutch Marquise is a trade name with no official gemological recognition.",
+      "type": "third_party",
+      "source": "Solitaire Lab Diamond, Dutch Marquise Diamond",
+      "url": "https://solitairelabdiamond.com/blog/post/dutch-marquise-diamond",
+      "accessed": "2026-06-15"
+    },
+    {
+      "claim": "Grading laboratories describe the geometry as modified marquise brilliant rather than printing the trade name.",
+      "type": "general_gemology",
+      "source": "General rule of grading laboratories (GIA, IGI, GCAL): reports certify measurable geometry, not trade names."
+    },
+    {
+      "claim": "Typical length-to-width ratio 1.5 to 1.9; Stienhardt cuts to 1.6 to 1.75 by default.",
+      "type": "first_party",
+      "source": "Stienhardt cutting bench"
+    },
+    {
+      "claim": "Faceting varies by stone; confirm the exact faceting and the graded report on any individual diamond. [FOUNDER TO CONFIRM: crushed-ice vs step-cut, reconcile against the live collection page]",
+      "type": "first_party",
+      "source": "Stienhardt cutting bench"
+    }
+  ],
+  "version": "1.0.0",
+  "updated": "2026-06-16"
+}

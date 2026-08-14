@@ -1,0 +1,39 @@
+{
+  "$schema": "../schema/diamond-cut-definition.schema.json",
+  "name": "French Marquise",
+  "aliases": ["French Marquise cut", "marquise with French tips"],
+  "trade_name": true,
+  "officially_recognized_shape": false,
+  "certificate_term": "marquise brilliant",
+  "outline": "Pointed boat-shaped marquise outline with two points.",
+  "end_treatment": "Pointed, finished with French tips: several small facets at each point instead of one large facet, which reinforce the point and add flash.",
+  "faceting_pattern": "brilliant",
+  "length_to_width_ratio": {
+    "typical_min": 1.75,
+    "typical_max": 2.25,
+    "units": "ratio"
+  },
+  "durability_notes": "Still a pointed marquise. The French tips reinforce the most fragile part of the stone, but the points remain the area most likely to chip.",
+  "inclusion_visibility": "neutral",
+  "provenance": {
+    "published_by": "Stienhardt & Stones",
+    "claim_scope": "We publish this plain, repeatable definition of the French Marquise and cut these stones in-house. The French in the name refers to the tip faceting technique, not a separate shape.",
+    "claim_boundary": "We did not invent French tip faceting, which is an established marquise finishing technique, nor do we hold a patent or trademark on the term French Marquise."
+  },
+  "sources": [
+    {
+      "claim": "A French tip is several small facets at the point of a marquise, pear, or heart, used to reinforce the fragile tip and add flash.",
+      "type": "third_party",
+      "source": "International Gem Society, history of marquise diamonds",
+      "url": "https://www.gemsociety.org/article/history-of-marquise-diamonds/",
+      "accessed": "2026-06-16"
+    },
+    {
+      "claim": "On a grading report a French Marquise is described as a marquise brilliant; the French refers to the tip faceting, not a separate shape.",
+      "type": "general_gemology",
+      "source": "General rule of grading laboratories: reports certify geometry, not finishing trade names."
+    }
+  ],
+  "version": "1.0.0",
+  "updated": "2026-06-16"
+}
