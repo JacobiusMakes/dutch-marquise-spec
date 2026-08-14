@@ -14,8 +14,12 @@
       },
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "hasDefinedTerm": [
-        { "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#dutch-marquise" },
-        { "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#french-marquise" }
+        {
+          "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#dutch-marquise"
+        },
+        {
+          "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#french-marquise"
+        }
       ]
     },
     {
@@ -36,5 +40,8 @@
       "inDefinedTermSet": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut",
       "url": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut#french-marquise"
     }
+  ],
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.21938900"
   ]
 }

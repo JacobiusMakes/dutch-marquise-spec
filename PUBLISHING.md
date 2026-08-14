@@ -49,7 +49,7 @@ your accounts), and then a set of follow-ups I can run.
 
 ## Step 3: Wire the real DOI back in (I can do this once you paste the DOI)
 
-The DOI appears as `10.5281/zenodo.XXXXXXX` placeholders in:
+The DOI appears as `10.5281/zenodo.21938900` (minted 2026-08-14) in:
 
 - `README.md` (How to cite)
 - `jsonld/dutch-marquise.jsonld` (`identifier`)

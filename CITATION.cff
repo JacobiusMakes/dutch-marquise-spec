@@ -25,3 +25,7 @@ keywords:
   - "elongated hexagon"
   - "lab-grown diamond"
   - "gemology"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21938900"
+    description: "Zenodo archive of v1.0.0"

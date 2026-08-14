@@ -48,7 +48,7 @@ Once the first release is archived (see [`PUBLISHING.md`](PUBLISHING.md)),
 Zenodo mints a permanent DOI. Cite it as:
 
 > Stienhardt & Stones. *Dutch Marquise: Open Geometry Specification* (Version
-> 1.0.0). 2026. DOI: `10.5281/zenodo.XXXXXXX` (minted on first Zenodo release).
+> 1.0.0). 2026. DOI: `10.5281/zenodo.21938900`.
 
 The license below requires attribution, so every reuse credits the source by
 name.
