@@ -1,11 +1,11 @@
 {
   "title": "Dutch Marquise: Open Geometry Specification",
-  "description": "An open, versioned, machine-readable specification for the Dutch Marquise diamond cut and its companion the French Marquise: outline, faceting pattern, certificate nomenclature, and length-to-width ratio, with every claim sourced. Published by Stienhardt & Stones, which cuts these stones in-house. The term Dutch Marquise is a trade name, not an officially recognized gemological shape; grading laboratories describe the geometry as a modified marquise brilliant.",
+  "description": "An open, versioned, machine-readable specification for the Dutch Marquise diamond cut and its companion the French Marquise: outline, faceting pattern, certificate nomenclature, and how to read the length-to-width ratio from a grading report, with every claim sourced. A Dutch Marquise is an elongated hexagonal cut diamond, cut for brilliance; grading laboratories describe the geometry as a hexagonal modified brilliant (IGI report, 2026). The term is a trade name, not an officially recognized gemological shape. Published by Stienhardt, New York, which controls this cut through a specialized factory relationship and hand-sets and finishes the stones in New York City, and which does not claim to have invented, named, or standardized the cut. Version 1.0.1 corrects the certificate term, removes an unsupported ratio range in favor of measured values, resolves the faceting description, and adds a PDF edition.",
   "upload_type": "dataset",
   "creators": [
     {
-      "name": "Stienhardt & Stones",
-      "affiliation": "Stienhardt & Stones, New York"
+      "name": "Stienhardt",
+      "affiliation": "Stienhardt, New York"
     }
   ],
   "license": "cc-by-4.0",
@@ -14,16 +14,17 @@
     "Dutch Marquise",
     "French Marquise",
     "diamond cut",
-    "modified marquise brilliant",
+    "hexagonal modified brilliant",
     "elongated hexagon",
     "lab-grown diamond",
     "gemology"
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/stienhardt/dutch-marquise-spec",
+      "identifier": "https://github.com/JacobiusMakes/dutch-marquise-spec",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ]
+  ],
+  "version": "1.0.1"
 }

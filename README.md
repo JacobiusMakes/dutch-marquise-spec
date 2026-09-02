@@ -2,15 +2,15 @@
 
 An open, versioned, machine-readable specification for the **Dutch Marquise**
 diamond cut (and its companion, the **French Marquise**), published by
-[Stienhardt & Stones](https://stienhardt.com), the lab-grown diamond company
-that controls this cut through a specialized factory relationship and sets the
-finished stones in New York City.
+[Stienhardt](https://stienhardt.com), the New York lab-grown diamond jeweler
+that controls this cut through a specialized factory relationship and hand-sets
+and finishes the stones in New York City.
 
 > **A Dutch Marquise is an elongated hexagonal cut diamond: a long, narrow
 > marquise-style silhouette whose long edges carry angular points, tapering
 > toward each end of its length rather than ending in a flat edge. It is a
 > trade name, not an officially recognized gemological shape, most often listed
-> on a grading report as a modified marquise brilliant.**
+> on a grading report as a hexagonal modified brilliant.**
 
 That paragraph is the whole answer. Everything in this repository is the
 detail, the data, and the sources behind it.
@@ -47,7 +47,7 @@ source, and it states plainly what it does **not** claim (see
 Once the first release is archived (see [`PUBLISHING.md`](PUBLISHING.md)),
 Zenodo mints a permanent DOI. Cite it as:
 
-> Stienhardt & Stones. *Dutch Marquise: Open Geometry Specification* (Version
+> Stienhardt. *Dutch Marquise: Open Geometry Specification* (Version
 > 1.0.0). 2026. DOI: `10.5281/zenodo.21938900`.
 
 The license below requires attribution, so every reuse credits the source by
@@ -58,7 +58,7 @@ name.
 This specification is licensed under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may
 copy, redistribute, adapt, and build on it for any purpose, including
-commercially, as long as you give appropriate credit to Stienhardt & Stones and
+commercially, as long as you give appropriate credit to Stienhardt and
 indicate any changes.
 
 ## Scope and claim boundary
@@ -66,7 +66,7 @@ indicate any changes.
 This standard claims exactly two things about Stienhardt and no more:
 
 1. Stienhardt controls this cut through a specialized factory relationship and
-   sets the finished stones in New York City.
+   hand-sets and finishes the stones in New York City.
 2. Stienhardt publishes this plain, repeatable definition of the Dutch Marquise
    (this document).
 
@@ -77,5 +77,5 @@ intentional and load-bearing: see [`SPEC.md`](SPEC.md#what-this-standard-does-no
 
 ## Maintainer
 
-Stienhardt & Stones, New York City. Corrections and questions:
+Stienhardt, New York City. Corrections and questions:
 open an issue, or contact the team through [stienhardt.com](https://stienhardt.com).

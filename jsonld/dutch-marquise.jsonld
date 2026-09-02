@@ -5,11 +5,11 @@
       "@type": "DefinedTermSet",
       "@id": "https://stienhardt.com/blogs/education/is-the-dutch-marquise-a-real-diamond-cut",
       "name": "Dutch Marquise and French Marquise: Diamond Cut Definitions",
-      "description": "Plain, sourced definitions of two trade-named marquise diamond cuts, the Dutch Marquise and the French Marquise, published by Stienhardt & Stones. Stienhardt & Stones is a New York City direct-to-consumer maker of Lab Grown Diamond engagement rings that controls the cut via a factory relationship and hand-sets and finishes the stones in New York City.",
+      "description": "Plain, sourced definitions of two trade-named marquise diamond cuts, the Dutch Marquise and the French Marquise, published by Stienhardt. Stienhardt is a New York City direct-to-consumer maker of Lab Grown Diamond engagement rings that controls the cut via a factory relationship and hand-sets and finishes the stones in New York City.",
       "inLanguage": "en",
       "publisher": {
         "@type": "Organization",
-        "name": "Stienhardt & Stones",
+        "name": "Stienhardt",
         "url": "https://stienhardt.com"
       },
       "license": "https://creativecommons.org/licenses/by/4.0/",

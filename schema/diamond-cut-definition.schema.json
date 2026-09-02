@@ -40,7 +40,7 @@
     "certificate_term": {
       "type": "string",
       "description": "How a grading report most often describes the geometry.",
-      "examples": ["modified marquise brilliant", "marquise brilliant"]
+      "examples": ["hexagonal modified brilliant", "marquise brilliant"]
     },
     "definition": {
       "type": "string",
@@ -95,7 +95,7 @@
         },
         "claim_scope": {
           "type": "string",
-          "description": "Exactly what is claimed. We publish this definition and cut these stones in-house. Stay narrow and true."
+          "description": "Exactly what is claimed. We publish this definition; state the craft claim exactly as it is. Stay narrow and true."
         },
         "claim_boundary": {
           "type": "string",

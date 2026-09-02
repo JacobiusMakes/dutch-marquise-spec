@@ -26,13 +26,13 @@ your accounts), and then a set of follow-ups I can run.
    git add .
    git commit -m "Dutch Marquise: Open Geometry Specification v1.0.0"
    git branch -M main
-   git remote add origin https://github.com/stienhardt/dutch-marquise-spec.git
+   git remote add origin https://github.com/JacobiusMakes/dutch-marquise-spec.git
    git push -u origin main
    ```
 
    (If you use a different org or account name, update the URLs in
    `README.md`, `CITATION.cff`, `.zenodo.json`, and `jsonld/dutch-marquise.jsonld`
-   to match. Search for `stienhardt/dutch-marquise-spec`.)
+   to match. Search for `JacobiusMakes/dutch-marquise-spec`.)
 
 3. Optional but recommended: in the repo, click "Add a license," pick
    "Creative Commons Attribution 4.0 International," and let GitHub insert the

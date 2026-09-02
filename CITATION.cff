@@ -4,24 +4,25 @@ title: "Dutch Marquise: Open Geometry Specification"
 abstract: >-
   An open, versioned, machine-readable specification for the Dutch Marquise
   diamond cut and its companion the French Marquise: outline, faceting pattern,
-  certificate nomenclature, and length-to-width ratio, every claim sourced.
-  Published by Stienhardt & Stones, which cuts these stones in-house.
+  certificate nomenclature (hexagonal modified brilliant), and how to read the
+  length-to-width ratio from a grading report, every claim sourced. Published by
+  Stienhardt, New York, which controls this cut through a specialized factory relationship and hand-sets and finishes the stones in New York City.
 type: dataset
 authors:
-  - name: "Stienhardt & Stones"
+  - name: "Stienhardt"
     website: "https://stienhardt.com"
     city: "New York"
     country: "US"
-version: "1.0.0"
-date-released: "2026-06-16"
+version: "1.0.1"
+date-released: "2026-09-02"
 license: CC-BY-4.0
-url: "https://github.com/stienhardt/dutch-marquise-spec"
-repository-code: "https://github.com/stienhardt/dutch-marquise-spec"
+url: "https://github.com/JacobiusMakes/dutch-marquise-spec"
+repository-code: "https://github.com/JacobiusMakes/dutch-marquise-spec"
 keywords:
   - "Dutch Marquise"
   - "French Marquise"
   - "diamond cut"
-  - "modified marquise brilliant"
+  - "hexagonal modified brilliant"
   - "elongated hexagon"
   - "lab-grown diamond"
   - "gemology"

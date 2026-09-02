@@ -1,7 +1,10 @@
 {
   "$schema": "../schema/diamond-cut-definition.schema.json",
   "name": "French Marquise",
-  "aliases": ["French Marquise cut", "marquise with French tips"],
+  "aliases": [
+    "French Marquise cut",
+    "marquise with French tips"
+  ],
   "trade_name": true,
   "officially_recognized_shape": false,
   "certificate_term": "marquise brilliant",
@@ -16,8 +19,8 @@
   "durability_notes": "Still a pointed marquise. The French tips reinforce the most fragile part of the stone, but the points remain the area most likely to chip.",
   "inclusion_visibility": "neutral",
   "provenance": {
-    "published_by": "Stienhardt & Stones",
-    "claim_scope": "We publish this plain, repeatable definition of the French Marquise and cut these stones in-house. The French in the name refers to the tip faceting technique, not a separate shape.",
+    "published_by": "Stienhardt",
+    "claim_scope": "We publish this plain, repeatable definition of the French Marquise, and Stienhardt controls this cut through a specialized factory relationship and hand-sets and finishes the stones in New York City. The French in the name refers to the tip faceting technique, not a separate shape.",
     "claim_boundary": "We did not invent French tip faceting, which is an established marquise finishing technique, nor do we hold a patent or trademark on the term French Marquise."
   },
   "sources": [
@@ -34,6 +37,6 @@
       "source": "General rule of grading laboratories: reports certify geometry, not finishing trade names."
     }
   ],
-  "version": "1.0.0",
-  "updated": "2026-06-16"
+  "version": "1.0.1",
+  "updated": "2026-09-02"
 }

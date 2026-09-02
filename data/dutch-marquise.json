@@ -1,27 +1,36 @@
 {
   "$schema": "../schema/diamond-cut-definition.schema.json",
   "name": "Dutch Marquise",
-  "aliases": ["Dutch Marquise cut", "elongated hexagon marquise", "modified marquise brilliant (trade-named Dutch Marquise)"],
+  "aliases": [
+    "Dutch Marquise cut",
+    "elongated hexagon brilliant",
+    "hexagonal modified brilliant (trade-named Dutch Marquise)"
+  ],
   "trade_name": true,
   "officially_recognized_shape": false,
-  "certificate_term": "modified marquise brilliant",
-  "definition": "A Dutch Marquise is an elongated hexagonal cut diamond: a long, narrow marquise-style silhouette whose long edges carry angular points, tapering toward each end of its length rather than ending in a flat edge. It is a trade name, not an officially recognized gemological shape, most often listed on a grading report as a modified marquise brilliant.",
+  "certificate_term": "hexagonal modified brilliant",
+  "definition": "A Dutch Marquise is an elongated hexagonal cut diamond: a long, narrow marquise-style silhouette whose long edges carry angular points, tapering toward each end of its length rather than ending in a flat edge. It is a trade name, not an officially recognized gemological shape, listed on a grading report as a hexagonal modified brilliant.",
   "outline": "Elongated hexagon: a long, narrow marquise-style silhouette whose long edges carry angular points, tapering toward each end of its length rather than ending in a flat edge.",
   "end_treatment": "The long edges carry angular points that make the outline read as a hexagon rather than a smooth marquise, tapering toward each end of the length.",
-  "faceting_pattern": "pending_confirmation",
-  "faceting_status": "[FOUNDER TO CONFIRM: crushed-ice vs step-cut]",
+  "faceting_pattern": "brilliant",
+  "faceting_status": "Brilliant style: symmetrical facets arranged to maximize sparkle and fire. The Elongated Hexagon shares the outline and is the step cut of the pair.",
   "length_to_width_ratio": {
-    "typical_min": 1.5,
-    "typical_max": 1.9,
-    "recommended_min": 1.6,
-    "recommended_max": 1.75,
-    "units": "ratio"
+    "standardized_range": null,
+    "measured_examples": [
+      {
+        "ratio": 1.84,
+        "source": "Stienhardt reference stone, IGI report measurements",
+        "note": "length divided by width in millimeters"
+      }
+    ],
+    "units": "ratio",
+    "note": "No standardized ratio exists; this specification publishes measured values only."
   },
-  "durability_notes": "Wear behavior depends on the finished geometry of the individual stone. [FOUNDER TO CONFIRM]",
+  "durability_notes": "The pointed ends are the most exposed part of any elongated outline; a setting that protects the tips (V-prongs or a bezel at the points) is standard practice. Wear behavior depends on the individual stone.",
   "inclusion_visibility": "neutral",
   "provenance": {
-    "published_by": "Stienhardt & Stones",
-    "claim_scope": "We publish this plain, repeatable definition of the Dutch Marquise and cut these stones in-house.",
+    "published_by": "Stienhardt",
+    "claim_scope": "We publish this plain, repeatable definition of the Dutch Marquise, and Stienhardt controls this cut through a specialized factory relationship and hand-sets and finishes the stones in New York City.",
     "claim_boundary": "We did not invent, patent, or trademark the Dutch Marquise. The term predates this definition as a loose label for a hexagonal diamond with no fixed proportions."
   },
   "sources": [
@@ -33,21 +42,21 @@
       "accessed": "2026-06-15"
     },
     {
-      "claim": "Grading laboratories describe the geometry as modified marquise brilliant rather than printing the trade name.",
-      "type": "general_gemology",
-      "source": "General rule of grading laboratories (GIA, IGI, GCAL): reports certify measurable geometry, not trade names."
+      "claim": "Grading laboratories describe the geometry rather than printing the trade name; an IGI report for a Stienhardt Dutch Marquise reads Hexagonal Modified Brilliant.",
+      "type": "laboratory_report",
+      "source": "IGI report LG799689559, issued 2026-05-09"
     },
     {
-      "claim": "Typical length-to-width ratio 1.5 to 1.9; Stienhardt cuts to 1.6 to 1.75 by default.",
+      "claim": "Measured reference ratio 1.84 (length divided by width from the report measurements).",
       "type": "first_party",
-      "source": "Stienhardt cutting bench"
+      "source": "Stienhardt reference stone, IGI report measurements"
     },
     {
-      "claim": "Faceting varies by stone; confirm the exact faceting and the graded report on any individual diamond. [FOUNDER TO CONFIRM: crushed-ice vs step-cut, reconcile against the live collection page]",
+      "claim": "The Dutch Marquise is cut for brilliance; the Elongated Hexagon is the step cut of the pair.",
       "type": "first_party",
-      "source": "Stienhardt cutting bench"
+      "source": "Stienhardt published collection description; IGI brilliant-family report term"
     }
   ],
-  "version": "1.0.0",
-  "updated": "2026-06-16"
+  "version": "1.0.1",
+  "updated": "2026-09-02"
 }

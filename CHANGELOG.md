@@ -3,6 +3,25 @@
 All notable changes to this specification are recorded here. This project uses
 semantic versioning.
 
+## [1.0.1] - 2026-09-02
+
+Corrections. No change to the outline definition.
+
+- Certificate term corrected to hexagonal modified brilliant, the wording on an
+  IGI report for a Stienhardt Dutch Marquise (LG799689559, 2026-05-09). The
+  earlier "modified marquise brilliant" was wrong.
+- Faceting resolved: the Dutch Marquise is cut for brilliance; the Elongated
+  Hexagon is the step cut that shares the outline. Placeholders removed.
+- Length-to-width: the unsupported "typical 1.5 to 1.9" range and the "default
+  1.6 to 1.75" claim are withdrawn. The specification now publishes measured
+  values only (reference stone 1.84) and explains how to compute the ratio.
+- Durability wording replaced with standard setting practice for pointed ends.
+- Craft claim stated as it is: Stienhardt controls this cut through a specialized
+  factory relationship and hand-sets and finishes the stones in New York City.
+  The earlier "cuts these stones in-house" is withdrawn.
+- Publisher name is Stienhardt. Repository URLs corrected to
+  github.com/JacobiusMakes/dutch-marquise-spec. PDF edition added (SPEC.pdf).
+
 ## [1.0.0] - 2026-06-16
 
 First public release.
