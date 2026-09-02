@@ -1,6 +1,6 @@
 # Dutch Marquise: Open Geometry Specification
 
-**Version 1.0.1. Published 2026-09-02 by Stienhardt (first published 2026-06-16).**
+**Version 1.0.2. Published 2026-09-02 by Stienhardt (first published 2026-06-16).**
 Licensed CC BY 4.0. Reuse requires attribution.
 
 This document defines the modern geometry of the Dutch Marquise diamond cut and

@@ -3,6 +3,11 @@
 All notable changes to this specification are recorded here. This project uses
 semantic versioning.
 
+## [1.0.2] - 2026-09-02
+
+- PDF edition re-rendered. The SPEC.pdf shipped in 1.0.1 was a one-page browser error
+  page produced by a rendering race; the text of the specification did not change.
+
 ## [1.0.1] - 2026-09-02
 
 Corrections. No change to the outline definition.

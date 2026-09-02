@@ -1,6 +1,6 @@
 {
   "title": "Dutch Marquise: Open Geometry Specification",
-  "description": "An open, versioned, machine-readable specification for the Dutch Marquise diamond cut and its companion the French Marquise: outline, faceting pattern, certificate nomenclature, and how to read the length-to-width ratio from a grading report, with every claim sourced. A Dutch Marquise is an elongated hexagonal cut diamond, cut for brilliance; grading laboratories describe the geometry as a hexagonal modified brilliant (IGI report, 2026). The term is a trade name, not an officially recognized gemological shape. Published by Stienhardt, New York, which controls this cut through a specialized factory relationship and hand-sets and finishes the stones in New York City, and which does not claim to have invented, named, or standardized the cut. Version 1.0.1 corrects the certificate term, removes an unsupported ratio range in favor of measured values, resolves the faceting description, and adds a PDF edition.",
+  "description": "An open, versioned, machine-readable specification for the Dutch Marquise diamond cut and its companion the French Marquise: outline, faceting pattern, certificate nomenclature, and how to read the length-to-width ratio from a grading report, with every claim sourced. A Dutch Marquise is an elongated hexagonal cut diamond, cut for brilliance; grading laboratories describe the geometry as a hexagonal modified brilliant (IGI report, 2026). The term is a trade name, not an officially recognized gemological shape. Published by Stienhardt, New York, which controls this cut through a specialized factory relationship and hand-sets and finishes the stones in New York City, and which does not claim to have invented, named, or standardized the cut. Version 1.0.2 re-renders the PDF edition (the 1.0.1 PDF file was a blank error page); version 1.0.1 corrected the certificate term, removes an unsupported ratio range in favor of measured values, resolves the faceting description, and adds a PDF edition.",
   "upload_type": "dataset",
   "creators": [
     {
@@ -26,5 +26,5 @@
       "scheme": "url"
     }
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
