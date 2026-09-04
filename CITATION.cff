@@ -28,5 +28,8 @@ keywords:
   - "gemology"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.21938900"
-    description: "Zenodo archive of v1.0.0"
+    value: "10.5281/zenodo.21938899"
+    description: "Zenodo concept DOI, always resolves to the current version"
+  - type: doi
+    value: "10.5281/zenodo.22261016"
+    description: "Zenodo archive of v1.0.2"

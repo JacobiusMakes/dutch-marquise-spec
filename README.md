@@ -44,11 +44,15 @@ source, and it states plainly what it does **not** claim (see
 
 ## How to cite
 
-Once the first release is archived (see [`PUBLISHING.md`](PUBLISHING.md)),
-Zenodo mints a permanent DOI. Cite it as:
+Cite the concept DOI, which always resolves to the current version:
 
-> Stienhardt. *Dutch Marquise: Open Geometry Specification* (Version
-> 1.0.0). 2026. DOI: `10.5281/zenodo.21938900`.
+> Stienhardt. *Dutch Marquise: Open Geometry Specification*. 2026.
+> DOI: `10.5281/zenodo.21938899`.
+
+Version DOIs exist for each release (v1.0.2 is `10.5281/zenodo.22261016`), but
+cite the concept DOI unless you need to pin a specific version. Do not cite
+`10.5281/zenodo.21938900`: that is v1.0.0, which carried a length-to-width
+range and a certificate term that v1.0.1 withdrew. See `CHANGELOG.md`.
 
 The license below requires attribution, so every reuse credits the source by
 name.

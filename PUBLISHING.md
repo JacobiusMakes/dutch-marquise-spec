@@ -49,13 +49,18 @@ your accounts), and then a set of follow-ups I can run.
 
 ## Step 3: Wire the real DOI back in (I can do this once you paste the DOI)
 
-The DOI appears as `10.5281/zenodo.21938900` (minted 2026-08-14) in:
+Zenodo mints two kinds of DOI: one per version, and one concept DOI for the
+record as a whole that always resolves to the newest version. Cite the concept
+DOI, `10.5281/zenodo.21938899`. It appears in:
 
 - `README.md` (How to cite)
+- `CITATION.cff` (`identifiers`)
 - `jsonld/dutch-marquise.jsonld` (`identifier`)
 
-Paste me the minted DOI and I will replace every placeholder and prepare the
-v1.0.1 metadata commit.
+Version DOIs so far: v1.0.0 `10.5281/zenodo.21938900`, v1.0.1
+`10.5281/zenodo.22260539`, v1.0.2 `10.5281/zenodo.22261016`. Never point a
+citation at v1.0.0: it carried a length-to-width range and a certificate term
+that v1.0.1 withdrew.
 
 ## Follow-ups I can run once it is live
 
